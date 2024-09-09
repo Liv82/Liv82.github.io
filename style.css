@@ -12,11 +12,8 @@ ul{
     margin: 0px;
 }
 
-#ahh {
-    position: absolute;
-    left: 0;
-    margin-left: 40px
-;
+#logo {
+    float: left;
 }
 
 #title {
