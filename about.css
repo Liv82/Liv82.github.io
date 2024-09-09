@@ -2,20 +2,11 @@ body {
     background-color: #faf6ef;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #353535;
-    padding: 0px;
     margin: auto;
 }
 
-
-ul{
-    margin: 0px;
-}
-
-#ahh {
-    position: absolute;
-    left: 0;
-    margin-left: 40px
-;
+#logo {
+    float: left;
 }
 
 #title {
@@ -23,8 +14,8 @@ ul{
 }
 
 #navbar {
-    margin: 0vw;
-    padding: 1rem;
+    margin: auto;
+    padding: 1vw;
     background-color: #8aa5b8;
     font-family: "Playfair Display", sans-serif;
     color: #353535;
@@ -61,20 +52,11 @@ header {
 }
 
 body > main article {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: auto;
 }
 
 #container {
     display: flex;
-}
-
-#dog1 {
-    text-decoration: none;
-    padding: 0.5%;
-    border: #d7d2c9 solid;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #353535;
 }
 
 #sidebar {
@@ -108,6 +90,14 @@ body > main article {
     justify-content: left;
 }
 
+#dog1 {
+    text-decoration: none;
+    padding: 0.5%;
+    border: #d7d2c9 solid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #353535;
+}
+
 img {
     border-radius: 30%;
 }
@@ -126,33 +116,25 @@ form {
     padding: 1%;
 }
 
+#logobottom {
+    float: left;
+}
+
 footer a{
     display: flex;
     align-items: center;
     text-transform: uppercase;
-    margin-left: 0px;
-    letter-spacing: 1px;
+    margin-left: 0vw;
+    letter-spacing: 0.1vw;
     font-weight: 500;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #353535;
     text-decoration: none;
 }
 footer h2{
-    margin-right: 10px;
-    margin-top: 15px;
-    margin-left: 0px;
+    margin-right: 1vw;
+    margin-top: 1.5vw;
+    margin-left: 0vw;
+    float: left;
     font-family: "Playfair Display"
 }
-
-#copyright {
-    display: flex;
-    position: absolute;
-    right: 0;
-    margin-right: 40px;
-    letter-spacing: 1px;
-    font-weight: 500;
-    font-family: "Playfair Display";
-    color: #353535;
-    text-decoration: none;
-}
-
