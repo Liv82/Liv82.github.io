@@ -6,6 +6,10 @@ body {
     margin: auto;
 }
 
+ul{
+    margin: 0px;
+}
+
 #logo {
     float: left;
 }
@@ -107,6 +111,10 @@ form {
     background-color: #8aa5b8;
     margin: auto;
     padding: 1%;
+}
+
+#logobottom {
+    float: left;
 }
 
 footer a{
