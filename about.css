@@ -1,0 +1,158 @@
+body {
+    background-color: #faf6ef;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #353535;
+    padding: 0px;
+    margin: auto;
+}
+
+
+ul{
+    margin: 0px;
+}
+
+#ahh {
+    position: absolute;
+    left: 0;
+    margin-left: 40px
+;
+}
+
+#title {
+    font-size: 170%;
+}
+
+#navbar {
+    margin: 0vw;
+    padding: 1rem;
+    background-color: #8aa5b8;
+    font-family: "Playfair Display", sans-serif;
+    color: #353535;
+    font-size: 100%;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+#navbar2 {
+    padding: 2px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar2 a{
+    text-transform: uppercase;
+    padding: 8px;
+    margin: 0%;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #353535;
+    text-decoration: none;
+    display: inline-block;
+    border-bottom: 0.2px solid #6d8697;
+}
+
+header {
+    font-family: "Playfair Display", sans-serif;
+}
+
+body > main article {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#container {
+    display: flex;
+}
+
+#dog1 {
+    text-decoration: none;
+    padding: 0.5%;
+    border: #d7d2c9 solid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #353535;
+}
+
+#sidebar {
+    width: 250px;
+    background-color: #faf6ef;
+    color: #353535;
+    padding: 20px;
+    float: left;
+    width: 250px;
+}
+
+#main-content {
+    flex: 1; 
+    padding: 20px;
+    background-color: #faf6ef;
+    float: left;
+}
+
+#main-content aside{
+    width: 20%;
+    justify-content: left;
+}
+
+#sidebar #main-content {
+    margin: 0%;
+    padding: 0%;
+}
+
+#main-content > div{
+    margin: auto;
+    justify-content: left;
+}
+
+img {
+    border-radius: 30%;
+}
+
+form {
+    text-align: center;
+}
+
+#form-title {
+    text-align: center;
+}
+
+#bottom {
+    background-color: #8aa5b8;
+    margin: auto;
+    padding: 1%;
+}
+
+footer a{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    margin-left: 0px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #353535;
+    text-decoration: none;
+}
+footer h2{
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-left: 0px;
+    font-family: "Playfair Display"
+}
+
+#copyright {
+    display: flex;
+    position: absolute;
+    right: 0;
+    margin-right: 40px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-family: "Playfair Display";
+    color: #353535;
+    text-decoration: none;
+}
+

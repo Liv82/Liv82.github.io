@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"; rel="stylesheet">
+    <link rel="shortcut icon" href="braine.svg" type="image/x-icon">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Wernicke's Web</title>
+</head>
+<body>
+    <header>
+         <nav id="navbar">
+            <img src="braine.svg" alt="Brain" id="ahh" width="125" height="125">
+            <h1 id="title">Wernicke's Web</h1>
+            <ul id="navbar2">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="https://www.linkedin.com/in/olivia-stevens05/"target="_blank">Contact</a>
+            </ul>
+         </nav>
+    </header>
+    <main>
+        <div id="container">
+            <aside id="sidebar">
+                <h4>Filter by Month</h4>
+                <!-- Month Filter Buttons -->
+                <nav id="monthFilter">
+                 <button data-month="all">All</button>
+                 <button data-month="august_24">August 2024</button>
+                 <button data-month="september_24">September 2024</button>
+                 <button data-month="october_24">October 2024</button>
+                 <button data-month="november_24">November 2024</button>
+                 <button data-month="december_24">December 2024</button>
+                 <button data-month="january_25">January 2025</button>
+                 <button data-month="february_25">February 2025</button>
+        <!-- Add more months -->
+                 </nav>
+                 <h4>Filter by Category</h4>
+                 <nav id="typeFilter">
+                    <button data-type="all">All Types</button>
+                    <button data-type="psychology">Psychology</button>
+                    <button data-type="neuroscience">Neuroscience</button>
+                    <button data-type="volunteering">Volunteering</button>
+                </nav>
+        </article>
+    </section>
+    <h2 id="form-title">Feedback Form</h2>
+    <form action="mailto:" method="POST" enctype="text/plain">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="subjectt">About:</label>
+        <input type="subject" id="subject" name="subject" required>
+        <br>
+        <label for="message">Message:</label>
+        <textarea name="message" id="message" cols="20" rows="5"></textarea>
+        <br>
+        <input type="submit" value="Send Feedback">
+    </form>
+            </aside>
+            <div id="main-content" class="blog-posts">
+                <article data-month="september_24" data-type="psychology">
+                    <header>
+                        <h2>Interesting Developments in Psychoanalysis</h2>
+                        <h3>Read Time: 5 Minutes</h3>
+                    </header>
+                    <main>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae sit voluptatum pariatur nihil repellat consectetur deleniti amet dolorem ipsa sint, magni consequatur possimus quo enim reiciendis et sed aliquid incidunt veniam non dicta minus officiis. Placeat quod magni pariatur, itaque esse temporibus dolorum facilis dignissimos aliquam at omnis, harum aliquid nihil illum? Ut nemo ipsum deserunt ipsam architecto numquam reiciendis quidem quod, id aperiam veniam at repellat modi et hic mollitia inventore dolor, tempora est? Dolor omnis quod odio, doloribus dicta eos. Odio ab, mollitia reiciendis consequatur inventore expedita perspiciatis vero fuga libero beatae. Ut repudiandae modi ducimus mollitia dolorum necessitatibus cum reiciendis quidem distinctio nobis? Ipsum quasi, quaerat est exercitationem quia sapiente iste vel vitae, voluptatum enim incidunt voluptatibus ipsam quae necessitatibus id nam fugiat ratione, consectetur molestias quas unde? Nemo magnam totam soluta excepturi est provident iure dignissimos quam repellendus. Vitae rerum dolor quidem vero, eius dolorum minus et magni eveniet earum quis vel delectus illo quisquam eum ea nostrum. Quos possimus vero doloribus odit dolor quidem et, aperiam autem dolorum ipsam suscipit, veritatis reiciendis perferendis, voluptas id ipsum quis recusandae voluptates. Similique explicabo, odio dignissimos dolor nisi distinctio, vero voluptate vitae at dolorem blanditiis nesciunt possimus repudiandae laudantium hic provident! Corporis commodi quibusdam aut quos molestias, eligendi beatae, asperiores ducimus impedit qui magni ex labore. Explicabo similique facilis, repellat ipsum, adipisci sunt impedit excepturi ab doloremque odio fuga ullam vel culpa debitis optio quaerat recusandae, modi quidem obcaecati? Sit est delectus, facere repellat perferendis nisi architecto quae.</p>
+                        <p>It's Great!</p>
+                        <p>This is why its great</p>
+                        <p>Hmm yes interesting</p>
+                        <blockquote>
+                            "I agree" - <cite>A Man, 2024</cite>
+                        </blockquote>
+                    </main>
+                    <footer>
+                        <h3>Author: Olivia Stevens</h3>
+                        <h4>Posted: 08/24 </h4>
+                        <img src="me.jpeg" alt="A picture of Me" width="122" height="150">
+                        <br>
+                        <a href="https://www.linkedin.com/in/olivia-stevens05/"target="_blank">Author's Profile</a>
+                    </footer>
+                </article>
+                <br>
+                <hr>
+                <article data-month="august_24" data-type="volunteering">
+                    <header>
+                        <h2>Experience Working in a Hospice</h2>
+                        <h3>Read Time: 5 Minutes</h3>
+                    </header>
+                    <main>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae sit voluptatum pariatur nihil repellat consectetur deleniti amet dolorem ipsa sint, magni consequatur possimus quo enim reiciendis et sed aliquid incidunt veniam non dicta minus officiis. Placeat quod magni pariatur, itaque esse temporibus dolorum facilis dignissimos aliquam at omnis, harum aliquid nihil illum? Ut nemo ipsum deserunt ipsam architecto numquam reiciendis quidem quod, id aperiam veniam at repellat modi et hic mollitia inventore dolor, tempora est? Dolor omnis quod odio, doloribus dicta eos. Odio ab, mollitia reiciendis consequatur inventore expedita perspiciatis vero fuga libero beatae. Ut repudiandae modi ducimus mollitia dolorum necessitatibus cum reiciendis quidem distinctio nobis? Ipsum quasi, quaerat est exercitationem quia sapiente iste vel vitae, voluptatum enim incidunt voluptatibus ipsam quae necessitatibus id nam fugiat ratione, consectetur molestias quas unde? Nemo magnam totam soluta excepturi est provident iure dignissimos quam repellendus. Vitae rerum dolor quidem vero, eius dolorum minus et magni eveniet earum quis vel delectus illo quisquam eum ea nostrum. Quos possimus vero doloribus odit dolor quidem et, aperiam autem dolorum ipsam suscipit, veritatis reiciendis perferendis, voluptas id ipsum quis recusandae voluptates. Similique explicabo, odio dignissimos dolor nisi distinctio, vero voluptate vitae at dolorem blanditiis nesciunt possimus repudiandae laudantium hic provident! Corporis commodi quibusdam aut quos molestias, eligendi beatae, asperiores ducimus impedit qui magni ex labore. Explicabo similique facilis, repellat ipsum, adipisci sunt impedit excepturi ab doloremque odio fuga ullam vel culpa debitis optio quaerat recusandae, modi quidem obcaecati? Sit est delectus, facere repellat perferendis nisi architecto quae.</p>
+                        <p>It's Great!</p>
+                        <p>This is why its great</p>
+                        <p>Hmm yes interesting</p>
+                        <blockquote>
+                            "Yes" - <cite>A Man, 2024</cite>
+                        </blockquote>
+                    </main>
+                    <footer>
+                        <h3>Author: Olivia Stevens</h3>
+                        <h4>Posted: 08/24 </h4>
+                        <img src="me.jpeg" alt="A picture of Me" width="122" height="150">
+                        <br>
+                        <a href="https://www.linkedin.com/in/olivia-stevens05/"target="_blank">Author's Profile</a>
+                    </footer>
+                </article>
+            </div>
+        </div>
+    </main>
+    <footer id="bottom">
+        <section>
+            <nav>
+                <ul>
+                    <div style="display: flex;">
+                        <img src="braine.svg" alt="Brain" width="50" height="50">
+                        <h2>Wernicke's Web</h2>
+                        <a href="index.html" style="margin-left: 10px;" >Home</a>
+                        <a href="about.html" style="margin-left: 10px;" target="_blank">About</a>
+                        <a href="https://www.linkedin.com/in/olivia-stevens05/" style="margin-left: 10px;" target="_blank">Contact</a>
+                        <h3 id="copyright">© 2024 Olivia Stevens</h3>
+                    </div>
+                </ul>
+            </nav>
+        </section>
+    </footer>
+</body>
+</html>
