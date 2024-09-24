@@ -1,3 +1,4 @@
+
 body {
     background-color: #faf6ef;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -18,8 +19,8 @@ body {
     padding: 1vw;
     background-color: #8aa5b8;
     font-family: "Playfair Display", sans-serif;
-    color: #353535;
-    font-size: 100%;
+    color: #faf6ef;
+    font-size: 17px;
     display: block;
     text-decoration: none;
     text-align: center;
@@ -41,7 +42,7 @@ body {
     letter-spacing: 1px;
     font-weight: 500;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #353535;
+    color: #faf6ef;
     text-decoration: none;
     display: inline-block;
     border-bottom: 0.2px solid #6d8697;
@@ -115,6 +116,8 @@ form {
     background-color: #8aa5b8;
     margin: auto;
     padding: 1%;
+    color: #faf6ef;
+    font-size: 15px;
 }
 
 footer a{
@@ -125,7 +128,7 @@ footer a{
     letter-spacing: 1px;
     font-weight: 500;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #353535;
+    color: #faf6ef;
     text-decoration: none;
 }
 footer h2{
@@ -135,3 +138,6 @@ footer h2{
     font-family: "Playfair Display"
 }
 
+#logobottom {
+    float: left;
+}

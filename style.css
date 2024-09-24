@@ -134,6 +134,10 @@ body > main article {
     justify-content: left;
 }
 
+#me {
+    border-radius: 30%;
+}
+
 
 form {
     text-align: center;
